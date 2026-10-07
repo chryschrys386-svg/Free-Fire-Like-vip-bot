@@ -10,8 +10,8 @@ import logging
 import sys
 # ╔══════════════════════════════════════════════════════════════════╗
 # ║  CREATOR: TARIKUL ISLAM
-# ║  TELEGRAN: https://t.me/paglu_dev
-# ║  PERSONAL TELEGRAM: https://t.me/itzpaglu
+# ║  TELEGRAN: https://t.me/GAMING_XBM2K_VIP_LIKE_BOT
+# ║  PERSONAL TELEGRAM: https://t.me/GAMING_XBM2K_VIP
 # ╚══════════════════════════════════════════════════════════════════╝
 
 # Configure logging
@@ -28,10 +28,10 @@ if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
     sys.exit(1)
 
-REQUIRED_CHANNELS = ["@your channel username"]
-GROUP_JOIN_LINK = "https://t.me/your_group_link"
-OWNER_ID = your tg user id (integer)    #Example: 6282811167
-OWNER_USERNAME = "@your username"
+REQUIRED_CHANNELS = ["@GAMING_XBM2K_VIP_LIKE_BOT"]
+GROUP_JOIN_LINK = "https://t.me/GAMING_XBM2K_LIKE_VIP_BUY"
+OWNER_ID = 8956135757
+OWNER_USERNAME = "@GAMING_XBM2K_VIP"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 like_tracker = {}   # in-memory cache
